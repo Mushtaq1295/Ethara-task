@@ -16,7 +16,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-  origin: ["https://your-frontend-domain.vercel.app"],
+  origin: ["https://ethara-task.vercel.app"],
   credentials: true
 }));
 app.use(express.json());
